@@ -10,7 +10,7 @@ ap.add_argument("-o","--output_img", type=str, default="./output",
                 help="paht to output folder")
 ap.add_argument("-c","--class_img", type=str, default="0",
                 help="class")
-ap.add_argument("-m","--move_img", type=str, default=False,
+ap.add_argument("-m","--move_img", action="store_true",
                 help="move image")
 args = vars(ap.parse_args())
                                 
