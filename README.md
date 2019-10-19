@@ -7,4 +7,4 @@ Split Yolo Class to another directory.
 -i = image directory <br/>
 -0 = output directory <br/>
 -c = yolo class <br/>
--m = if you want move image, if you just move text file just delete it
+-m = move image and text file, delete "-m" if you want move text file only
